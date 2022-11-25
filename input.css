@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.width_550 {
+    width: 550px;
+}
+
+.image-with-text {
+    @apply flex flex-col items-center;
+}
+
+.bg-img {
+    background-image: url(images/4-section/background-img-1.png);
+}
+
+.text-size-bold {
+    @apply text-6xl font-bold mb-5 block;
+}
+
+.vl-r {
+    border-right: 4px solid orangered;
+    height: 120px;
+    /* @apply pl-8 ; */
+}
+
+.vr-l {
+    border-left: 8px solid orangered;
+    height: 200px;
+}
+
+.image-card-2{
+    @apply w-1/5 flex flex-col items-center 
+}
+
+.image-card-2 > img {
+    @apply w-full
+}
+
+.image-card {
+    @apply w-1/6
+}
+
+.image-card > img {
+    @apply w-full rounded-full mb-5 border-orange-500 border-2 p-2 bg-white;
+}
